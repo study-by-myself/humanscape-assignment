@@ -1,4 +1,4 @@
-# humanspape-assignment
+# humanscape-assignment
 
 ## ERD
 
