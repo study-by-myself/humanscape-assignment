@@ -1,0 +1,30 @@
+{
+  "name": "wanted",
+  "version": "1.0.0",
+  "description": "4th wanted-assignment",
+  "main": "app.js",
+  "repository": "https://github.com/study-by-myself/humanscape-assignment.git",
+  "author": "blingblin-g <luvbliny@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.9.0"
+  },
+  "type": "module"
+}
